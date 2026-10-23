@@ -83,7 +83,7 @@ class Socket extends EventEmitter {
     this._write(binary ? 0x2 : 0x1, Buffer.isBuffer(data) ? data : Buffer.from(String(data)));
   }
   ping() { this._write(0x9, Buffer.alloc(0)); }
-  terminate() { this.readyState = 3; try { this.sock.destroy(); } catch (e) {} this._closed(); }
+  terminate() { try { this.sock.destroy(); } catch (e) {} this._closed(); }
 }
 
 class WebSocketServer extends EventEmitter {

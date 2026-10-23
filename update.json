@@ -1,7 +1,7 @@
 {
- "version": "2.5.0",
- "apk": "ThunderAlley-2.5.0.apk",
- "size": 34374745,
- "sha256": "f7d064788719fe8cc98f876ddeb8343190b118ed055dbc1406029435a2b4705f",
- "notes": "- New mode: TANK TRANSPORT. Escort a slow tank through checkpoints to the end; whoever controls the area around it moves it forward or pushes it back. The tank flattens walls in its way and shells defenders.\n- Bot difficulty is now Recruit, Private, Lieutenant and Commander. Higher ranks hear footsteps, share sightings, fall back to cover, flank, spread across objectives and aim better.\n- Killstreaks: choose any 3 of 13, including Signal Jammer, Supply Drop, Precision Strike, Hunter Drone, Sentry Turret, Spectre Sweep, Thunder Gunship, EMP Burst and Thunderclap. Bomber Run, Precision Strike and Cluster Barrage are aimed on a tactical map.\n- Perks: 3 slots and 18 perks, including Cold Front, Shield Mask, Silent Step, Hunter's Sense, Sapper, Double Down, Pathfinder, Restock, Payback, Head Start and High Alert.\n- Gunsmith: 38 new attachments, such as Monolith and Compact suppressors, Full Choke, Fluted and Integral barrels, Thermal Hybrid, LPVO, Canted, 4x Prism, Grip-Pod, Combat Flashlight, Slug, Incendiary and Subsonic rounds.\n- Change your loadout from the death screen.\n- Maps: grass, bushes, better trees and rocks, shell craters (explosions leave new ones), barbed-wire lines, tank wrecks, Humvees, trucks, parked jets and cargo planes, and window, ledge and rooftop detail on buildings.\n- Quieter, softer footsteps with their own volume slider."
+ "version": "3.12.1",
+ "apk": "ThunderAlley-3.12.1.apk",
+ "size": 139196567,
+ "sha256": "941d4ffef0abac029d59bf07f33a688d9fabd3e97b1167d358c4fd4474c30cad",
+ "notes": "- Enemy markers: the red arrow over an enemy's head now only shows once someone on your team spots them. Keep your crosshair on an enemy for a moment (quicker when aiming) to spot them for your squad for 7 seconds (\"ENEMY SPOTTED\"). Firing, UAV sweeps and the minimap no longer put arrows over heads. In Free-for-All you only see the enemies you spotted yourself.\n- First-person hands: your support hand now grips the handguard on every gun, with fingers wrapped round it. Snipers included. The arms move with the gun (recoil, sway, reloads, aiming) so the hands never slide off.\n- Checked every gun from the hip and down the sights for hand and model glitches.\n"
 }
