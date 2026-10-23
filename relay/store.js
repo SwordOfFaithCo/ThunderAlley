@@ -92,7 +92,7 @@ class FileStore {
 function env(name) {
   let v = String(process.env[name] || "").trim();
   if (v.startsWith(name + "=")) v = v.slice(name.length + 1).trim();
-  if (v.length >= 2 && /^["'].*["']$/.test(v)) v = v.slice(1, -1).trim();
+  v = v.replace(/^["'\u201c\u201d\u2018\u2019\s]+/, "").replace(/["'\u201c\u201d\u2018\u2019\s]+$/, "");
   return v;
 }
 
