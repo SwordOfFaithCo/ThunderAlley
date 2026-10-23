@@ -87,10 +87,19 @@ class FileStore {
   }
 }
 
+/** Read a setting, forgiving copy-paste extras: spaces, surrounding quotes,
+ *  or the whole `NAME="value"` line pasted into Render's value box. */
+function env(name) {
+  let v = String(process.env[name] || "").trim();
+  if (v.startsWith(name + "=")) v = v.slice(name.length + 1).trim();
+  if (v.length >= 2 && /^["'].*["']$/.test(v)) v = v.slice(1, -1).trim();
+  return v;
+}
+
 function makeStore() {
-  const u = process.env.UPSTASH_REDIS_REST_URL, t = process.env.UPSTASH_REDIS_REST_TOKEN;
+  const u = env("UPSTASH_REDIS_REST_URL"), t = env("UPSTASH_REDIS_REST_TOKEN");
   if (u && t) return new UpstashStore(u, t);
   return new FileStore(process.env.DATA_DIR || path.join(__dirname, "data"));
 }
 
-module.exports = { makeStore };
+module.exports = { makeStore, env };

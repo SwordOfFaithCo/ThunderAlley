@@ -163,7 +163,7 @@ const BUG_INDEX_MAX = 500;
 const clip = (v, n) => String(v == null ? "" : v).slice(0, n);
 
 function adminOk(req, q) {
-  const key = process.env.ADMIN_KEY || "";
+  const key = require("./store").env("ADMIN_KEY");
   if (!key) throw new ApiError(404, "Not found");
   const given = String(req.headers["x-admin-key"] || q.get("key") || "");
   const a = Buffer.from(sha(given)), b = Buffer.from(sha(key));
@@ -230,7 +230,12 @@ const routes = {
     }
     return { bugs: out };
   },
-  "GET /api/status": async () => ({ ok: true, storage: store.kind, persistent: store.persistent }),
+  "GET /api/status": async () => {
+    // also prove the database answers, so a bad Render setting shows up here
+    let storage_ok = true, storage_error = "";
+    try { await store.get("health:ping"); } catch (e) { storage_ok = false; storage_error = String(e.message || e).slice(0, 120); }
+    return { ok: true, storage: store.kind, persistent: store.persistent, storage_ok, storage_error };
+  },
 
   "GET /api/name": async (req, q) => {
     const n = q.get("u") || "";
