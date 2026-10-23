@@ -1,7 +1,7 @@
 {
- "version": "3.12.1",
- "apk": "ThunderAlley-3.12.1.apk",
- "size": 139196567,
- "sha256": "941d4ffef0abac029d59bf07f33a688d9fabd3e97b1167d358c4fd4474c30cad",
- "notes": "- Enemy markers: the red arrow over an enemy's head now only shows once someone on your team spots them. Keep your crosshair on an enemy for a moment (quicker when aiming) to spot them for your squad for 7 seconds (\"ENEMY SPOTTED\"). Firing, UAV sweeps and the minimap no longer put arrows over heads. In Free-for-All you only see the enemies you spotted yourself.\n- First-person hands: your support hand now grips the handguard on every gun, with fingers wrapped round it. Snipers included. The arms move with the gun (recoil, sway, reloads, aiming) so the hands never slide off.\n- Checked every gun from the hip and down the sights for hand and model glitches.\n"
+ "version": "3.12.2",
+ "apk": "ThunderAlley-3.12.2.apk",
+ "size": 139196971,
+ "sha256": "3ffa0bcf081c11fd5c40433cfcd6bd5065d99f3e6869aa2d253a80d96bcd87f6",
+ "notes": "- Fixed: with an optic plus a laser, suppressor or grip (for example the Hornet's higher builds), a piece of the gun's barrel floated above the weapon as a long black bar and blocked your view when aiming. Attachments now stay where they belong on every gun.\n- Mini Reflex sight: the housing is now an open frame, so you see through it instead of a solid black square.\n- Lasers and lights sit low on the side of the handguard, out of your sight picture.\n- From 3.12.1: enemy arrows only after spotting; support hand grips every gun.\n"
 }
