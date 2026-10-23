@@ -1,0 +1,17 @@
+# One-click deploy on Render (free): Dashboard > New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: thunderalley-relay
+    runtime: node
+    plan: free
+    rootDir: relay
+    buildCommand: echo no build needed
+    startCommand: node server.js
+    healthCheckPath: /
+    envVars:
+      # Accounts and cloud saves live in a free Upstash Redis database
+      # (upstash.com > Create database > REST API). Render asks for these on deploy.
+      - key: UPSTASH_REDIS_REST_URL
+        sync: false
+      - key: UPSTASH_REDIS_REST_TOKEN
+        sync: false

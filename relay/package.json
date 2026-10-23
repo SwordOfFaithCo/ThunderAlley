@@ -1,0 +1,9 @@
+{
+  "name": "thunderalley-relay",
+  "version": "1.0.0",
+  "description": "Room relay for ThunderAlley online play (host migration, works on any Wi-Fi / mobile data).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
