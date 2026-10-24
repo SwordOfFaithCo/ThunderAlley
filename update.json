@@ -1,7 +1,8 @@
 {
- "version": "3.13.0",
- "apk": "ThunderAlley-3.13.0.apk",
- "size": 142988400,
- "sha256": "67672b41e080c959bb2878227f24820cbe695b07d920f49537369a9cf8b24e7f",
- "notes": "ThunderAlley 3.13.0: new menus and startup\n- New animated startup: a squad jumps from a helicopter at sunrise, free-falls and opens their parachutes while the game loads. The bar shows each real loading step, then sign in: Guest, Sign In or Create Account (or Tap to Start when signed in). Quick tools on the side: Updates, Notices, Support and Repair (safe graphics).\n- New home hub: your soldier in the hangar, your rank, XP, Armory Keys and dog tags, Social / Notices / Music / Settings, a rotating event card, Challenges / Career / Profile tiles with live progress, and MODES \u00b7 LOADOUT \u00b7 VEHICLES \u00b7 ARMORY. Pick Practice or Online, check your mode and map, then hit READY.\n- Select Mode: Large Scale and Infantry tabs, the mode's picture and facts, View Maps (every map with its picture), Match Settings, mode cards and Confirm.\n- Loadout: classes down the side, your soldier with the class's gear, every weapon and gear slot, perks and streaks, Rename and Equip.\n- Armory: camos (per gun), charms and banners with their unlock missions and progress, and Equip.\n- Operator: Career (prestige), Challenges (daily, weekly, assignments, weapon mastery) and Profile (banner, rank, account, stats) in one place.\n- New-style pop-ups and a new results screen.\n- Vehicle skins: coming soon.\n- Fixed: a piece of the barrel could float above some guns with an optic plus attachments; the Mini Reflex sight is see-through; lasers sit low on the handguard.\n- Browser version: phones get the touch layout and lighter graphics.\n"
+ "version": "3.13.1",
+ "apk": "ThunderAlley-3.13.1.apk",
+ "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.13.1.apk",
+ "size": 144964490,
+ "sha256": "a39d5011de29501d2e81a02f80ce08c5b5f44ad4e6a511dc619e05a8d4df685c",
+ "notes": "ThunderAlley 3.13.1: illustrated banners\n- 20 new illustrated banners in a bold cartoon style: Shadow Step, Ninja Squad, Shuriken Storm, Twin Fangs, Commando Cat, Tag & Bag, Pin Puller, Sarge, Drop Zone, Thunder Tank, Full Send, Iron Eagle, Desert Fox, Night Owl, Lights Out, Flag Bearer, Wire Cutter, Care Package, Bush Ghost and Storm Bolt.\n- Each one has its own unlock: knife kills and dog tags for the ninjas, long shots for the snipers, killstreaks, wins, matches, challenges and levels. Find them first in Armory > Banners.\n- Fixed: the backup update check (used when GitHub is busy) now always finds the newest download.\n"
 }
