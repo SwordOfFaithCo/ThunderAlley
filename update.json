@@ -1,7 +1,7 @@
 {
- "version": "3.12.2",
- "apk": "ThunderAlley-3.12.2.apk",
- "size": 139196971,
- "sha256": "3ffa0bcf081c11fd5c40433cfcd6bd5065d99f3e6869aa2d253a80d96bcd87f6",
- "notes": "- Fixed: with an optic plus a laser, suppressor or grip (for example the Hornet's higher builds), a piece of the gun's barrel floated above the weapon as a long black bar and blocked your view when aiming. Attachments now stay where they belong on every gun.\n- Mini Reflex sight: the housing is now an open frame, so you see through it instead of a solid black square.\n- Lasers and lights sit low on the side of the handguard, out of your sight picture.\n- From 3.12.1: enemy arrows only after spotting; support hand grips every gun.\n"
+ "version": "3.13.0",
+ "apk": "ThunderAlley-3.13.0.apk",
+ "size": 142988400,
+ "sha256": "67672b41e080c959bb2878227f24820cbe695b07d920f49537369a9cf8b24e7f",
+ "notes": "ThunderAlley 3.13.0: new menus and startup\n- New animated startup: a squad jumps from a helicopter at sunrise, free-falls and opens their parachutes while the game loads. The bar shows each real loading step, then sign in: Guest, Sign In or Create Account (or Tap to Start when signed in). Quick tools on the side: Updates, Notices, Support and Repair (safe graphics).\n- New home hub: your soldier in the hangar, your rank, XP, Armory Keys and dog tags, Social / Notices / Music / Settings, a rotating event card, Challenges / Career / Profile tiles with live progress, and MODES \u00b7 LOADOUT \u00b7 VEHICLES \u00b7 ARMORY. Pick Practice or Online, check your mode and map, then hit READY.\n- Select Mode: Large Scale and Infantry tabs, the mode's picture and facts, View Maps (every map with its picture), Match Settings, mode cards and Confirm.\n- Loadout: classes down the side, your soldier with the class's gear, every weapon and gear slot, perks and streaks, Rename and Equip.\n- Armory: camos (per gun), charms and banners with their unlock missions and progress, and Equip.\n- Operator: Career (prestige), Challenges (daily, weekly, assignments, weapon mastery) and Profile (banner, rank, account, stats) in one place.\n- New-style pop-ups and a new results screen.\n- Vehicle skins: coming soon.\n- Fixed: a piece of the barrel could float above some guns with an optic plus attachments; the Mini Reflex sight is see-through; lasers sit low on the handguard.\n- Browser version: phones get the touch layout and lighter graphics.\n"
 }
