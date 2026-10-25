@@ -1,8 +1,8 @@
 {
- "version": "3.13.1",
- "apk": "ThunderAlley-3.13.1.apk",
- "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.13.1.apk",
- "size": 144964490,
- "sha256": "a39d5011de29501d2e81a02f80ce08c5b5f44ad4e6a511dc619e05a8d4df685c",
- "notes": "ThunderAlley 3.13.1: illustrated banners\n- 20 new illustrated banners in a bold cartoon style: Shadow Step, Ninja Squad, Shuriken Storm, Twin Fangs, Commando Cat, Tag & Bag, Pin Puller, Sarge, Drop Zone, Thunder Tank, Full Send, Iron Eagle, Desert Fox, Night Owl, Lights Out, Flag Bearer, Wire Cutter, Care Package, Bush Ghost and Storm Bolt.\n- Each one has its own unlock: knife kills and dog tags for the ninjas, long shots for the snipers, killstreaks, wins, matches, challenges and levels. Find them first in Armory > Banners.\n- Fixed: the backup update check (used when GitHub is busy) now always finds the newest download.\n"
+ "version": "3.13.2",
+ "apk": "ThunderAlley-3.13.2.apk",
+ "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.13.2.apk",
+ "size": 144982450,
+ "sha256": "58435302ad94c8587ac09487a9b979e11ad634564d7d6ec3b612e142482eba36",
+ "notes": "ThunderAlley 3.13.2: fixes and spawn protection\n- Buttons now work on the first tap everywhere. Settings toggles, choices and list buttons were firing twice per tap, so toggles flipped straight back.\n- Custom loadout: killstreaks pick with one tap. With 3 already chosen, tapping a new one swaps out the oldest.\n- Bomb Defuse: a pulsing PLANT / DEFUSE button and a \"HOLD TO PLANT/DEFUSE\" prompt when you're at a site or the bomb, with a bigger range.\n- Spawn protection replaces the safe zones: for 2 seconds after you spawn you can't be shot and can't hurt anyone. A countdown shows on screen.\n- Domination: A, B and C are spread across the map in a wide triangle, so you have to run between them.\n- Select Mode: the LARGE SCALE tab works again (Conquest, XL Conquest, Tank Transport, Rush).\n- No more false \"closed unexpectedly / safe graphics\" message after updating, in the browser, or after swiping the game closed.\n- After an update, the \"Update installed\" CONTINUE button works when you're signed in.\n"
 }
