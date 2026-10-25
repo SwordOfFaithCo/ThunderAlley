@@ -102,6 +102,8 @@ body {
 #ta-rotate b{display:block;font-size:44px;margin-bottom:12px}
 @media (orientation:portrait) and (pointer:coarse){#ta-rotate{display:flex}}
 #ta-note{position:fixed;left:0;right:0;bottom:12px;z-index:5;text-align:center;color:#9a958a;font:14px system-ui,-apple-system,sans-serif;pointer-events:none}
+html,body{position:fixed;inset:0;overscroll-behavior:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+#canvas{touch-action:none}
 </style>
 <script>
 window.addEventListener("DOMContentLoaded",function(){
@@ -109,6 +111,12 @@ window.addEventListener("DOMContentLoaded",function(){
  var n=document.createElement("div");n.id="ta-note";n.textContent="First load downloads about 90 MB, so use Wi-Fi if you can. After that it loads faster.";document.body.appendChild(n);
  var iv=setInterval(function(){var st=document.getElementById("status");if(!st||st.style.visibility==="hidden"){n.remove();clearInterval(iv);}},500);
 });
+
+// iPhone Safari ignores user-scalable=no: two thumbs (stick + aim) read as a pinch
+// and zoom or scroll the page. Block the page gestures; the game gets the touches.
+["gesturestart","gesturechange","gestureend","dblclick"].forEach(function(t){document.addEventListener(t,function(e){e.preventDefault();},{passive:false});});
+document.addEventListener("touchmove",function(e){e.preventDefault();},{passive:false});
+window.addEventListener("scroll",function(){window.scrollTo(0,0);});
 </script>
 	</head>
 	<body>
@@ -128,7 +136,7 @@ window.addEventListener("DOMContentLoaded",function(){
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":98061672,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":98061832,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
