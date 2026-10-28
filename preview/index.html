@@ -97,6 +97,7 @@ body {
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="ThunderAlley">
 <meta name="theme-color" content="#0b0d0f">
+<script>try{if(navigator.audioSession)navigator.audioSession.type="playback"}catch(e){}</script>
 <style>
 #ta-rotate{display:none;position:fixed;inset:0;z-index:99;background:#0b0d0f;color:#e8e2d0;font:600 20px/1.4 system-ui,-apple-system,sans-serif;text-align:center;align-items:center;justify-content:center;padding:24px}
 #ta-rotate b{display:block;font-size:44px;margin-bottom:12px}
@@ -108,7 +109,7 @@ html,body{position:fixed;inset:0;overscroll-behavior:none;-webkit-user-select:no
 <script>
 window.addEventListener("DOMContentLoaded",function(){
  var r=document.createElement("div");r.id="ta-rotate";r.innerHTML="<div><b>&#x21bb;</b>Turn your phone sideways to play ThunderAlley</div>";document.body.appendChild(r);
- var n=document.createElement("div");n.id="ta-note";n.textContent="First load downloads about 90 MB, so use Wi-Fi if you can. After that it loads faster.";document.body.appendChild(n);
+ var n=document.createElement("div");n.id="ta-note";n.textContent="First load downloads about 100 MB plus the maps, so use Wi-Fi if you can. After that it loads faster.";document.body.appendChild(n);
  var iv=setInterval(function(){var st=document.getElementById("status");if(!st||st.style.visibility==="hidden"){n.remove();clearInterval(iv);}},500);
 });
 
@@ -136,7 +137,7 @@ window.addEventListener("scroll",function(){window.scrollTo(0,0);});
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":93510852,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":89898252,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
