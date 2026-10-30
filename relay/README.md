@@ -24,3 +24,6 @@ Without those variables the server keeps accounts in `data/accounts.json`. That'
 
 ## Run anywhere else
 `PORT=8080 node server.js` works on any VPS, including the Oracle Always Free VM from SERVER.md. Put it behind HTTPS (for example Caddy) so iPhones can use `wss://`.
+
+## Store: Premium, Season Pass, tokens
+`shop.js` sells Premium and the Season Pass, tracks pass XP and pass tokens per account, and takes payments through Stripe or Google Play. Seasons and prices are in `seasons.json`. Setup (Stripe keys, webhook, Google Play service account) is in `../SHOP_SETUP.md`. API reference: the comment at the top of `shop.js`.

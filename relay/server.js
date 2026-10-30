@@ -12,6 +12,7 @@
 const http = require("http");
 const { WebSocketServer } = require("./ws_lite");
 const accounts = require("./accounts");
+const shop = require("./shop");
 
 const PORT = parseInt(process.env.PORT || "8080", 10);
 const PROTOCOL = 1;
@@ -114,6 +115,7 @@ function join(ws, room, who) {
 }
 
 const server = http.createServer((req, res) => {
+  if (shop.handle(req, res)) return;
   if (accounts.handle(req, res)) return;
   res.setHeader("Access-Control-Allow-Origin", "*");
   if (req.url.startsWith("/rooms")) {

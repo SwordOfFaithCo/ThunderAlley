@@ -1,0 +1,26 @@
+{
+  "_help": "Season pass schedule. Add a new season by copying the last entry, giving it a new id, dates and name. Times are UTC. The game reads the rewards for each tier from its own season file (scripts/shop/season_<id>.gd); this file decides prices, XP and the tokens the premium track pays out.",
+  "premium": {
+    "price_cents": 699,
+    "currency": "usd",
+    "name": "ThunderAlley Premium",
+    "play_id": "premium"
+  },
+  "token_rules": {
+    "cents_per_token": 1,
+    "spend_step": 100,
+    "expire_days_after_season": 30
+  },
+  "seasons": [
+    {
+      "id": "s1",
+      "name": "Season 1: Steel Horizon",
+      "start": "2026-11-06T16:00:00Z",
+      "end": "2027-01-01T16:00:00Z",
+      "price_cents": 499,
+      "tiers": 40,
+      "xp_per_tier": 5000,
+      "token_tiers": { "5": 50, "10": 50, "15": 50, "20": 50, "25": 50, "30": 50, "35": 50, "40": 50 }
+    }
+  ]
+}

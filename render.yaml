@@ -15,3 +15,16 @@ services:
         sync: false
       - key: UPSTASH_REDIS_REST_TOKEN
         sync: false
+      # Store (v3.17): see SHOP_SETUP.md. Leave empty until you set up Stripe / Google Play.
+      - key: PUBLIC_URL
+        sync: false
+      - key: ADMIN_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: GOOGLE_PLAY_PACKAGE
+        value: com.thunderalley.game
+      - key: GOOGLE_PLAY_SERVICE_ACCOUNT
+        sync: false

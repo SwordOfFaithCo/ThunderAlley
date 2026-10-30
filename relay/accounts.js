@@ -427,4 +427,4 @@ ${b.shot ? `<img loading="lazy" src="/api/bugs/img?id=${esc(b.id)}&key=${key}">`
   res.end(html);
 }
 
-module.exports = { handle, verifySession, store };
+module.exports = { handle, verifySession, store, authed, ApiError, readBody, limited, ip, adminOk, getUser };
