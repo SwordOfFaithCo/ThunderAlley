@@ -1,8 +1,12 @@
 {
- "version": "3.13.2",
- "apk": "ThunderAlley-3.13.2.apk",
- "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.13.2.apk",
- "size": 144982450,
- "sha256": "58435302ad94c8587ac09487a9b979e11ad634564d7d6ec3b612e142482eba36",
- "notes": "ThunderAlley 3.13.2: fixes and spawn protection\n- Buttons now work on the first tap everywhere. Settings toggles, choices and list buttons were firing twice per tap, so toggles flipped straight back.\n- Custom loadout: killstreaks pick with one tap. With 3 already chosen, tapping a new one swaps out the oldest.\n- Bomb Defuse: a pulsing PLANT / DEFUSE button and a \"HOLD TO PLANT/DEFUSE\" prompt when you're at a site or the bomb, with a bigger range.\n- Spawn protection replaces the safe zones: for 2 seconds after you spawn you can't be shot and can't hurt anyone. A countdown shows on screen.\n- Domination: A, B and C are spread across the map in a wide triangle, so you have to run between them.\n- Select Mode: the LARGE SCALE tab works again (Conquest, XL Conquest, Tank Transport, Rush).\n- No more false \"closed unexpectedly / safe graphics\" message after updating, in the browser, or after swiping the game closed.\n- After an update, the \"Update installed\" CONTINUE button works when you're signed in.\n"
+  "version": "3.19.0",
+  "apk": "ThunderAlley-3.19.0.apk",
+  "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.19.0.apk",
+  "size": 539108980,
+  "sha256": "ca0212bb1fc277e32ec694ac2f3698047bf4b9e179b7775626b8f1bd524d3a3b",
+  "hd_pack": "ThunderAlley-HD-3.15.0.pck",
+  "hd_size": 141088148,
+  "hd_sha256": "dbd20b5431a41bff7bf27bf9602b66e85b513c291e992c374cc8b1b055adc0f5",
+  "notes": "ThunderAlley 3.19.0: seated riders, six new handguns, a longer Rush, fixes\n- Vehicles: drivers and passengers now sit in their seats instead of crouching. Drivers hold the wheel (or the handlebars on bikes and quads, leaning forward), passengers sit with their rifle ready, and pillion riders straddle the seat. Drivers in jeeps and trucks can be seen through the windows. Tank and IFV crews stay hidden inside the hull.\n- Six new realistic handguns (secondary weapons):\n  - Harrier XC (9mm compact), Sovereign .45 (stainless 1911), Dragoon 92 (9mm service pistol), Brigand 92 (9mm with threaded barrel), Corsair PM (small 9x18 pistol), Rattler .357 (6-inch revolver).\n  - They unlock between levels 6 and 17. Brand logos and markings are removed.\n- Iron sights: with no optic fitted, you now look along the gun's own sights, with the tip of the front post sitting in the rear sight, instead of over the top of the gun. A few guns whose rear sight or stock stands much taller than the front sight keep the old view.\n- Rush is now a long push in 4 to 6 sectors (bigger maps get more), with two relays per sector placed differently every match.\n  - Attackers get 75 reinforcements, refilled every time a sector falls, and deploy close to the sector they just took.\n  - Defenders respawn more slowly the further back they're pushed.\n- Each mode now opens on a random map that suits it, rather than always the same one. A map you pick is kept.\n- Loading screens: soldiers no longer walk or run backwards, the far helicopter flies nose first, the squad at the campfire faces the fire, and dust is soft smoke instead of flat grey discs.\n- Train stations: the lamps are real lamp posts standing on the platform with their light at the lamp head, and the benches face the track.",
+  "code": 40707
 }
