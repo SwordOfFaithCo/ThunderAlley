@@ -1,12 +1,22 @@
 {
-  "version": "3.20.0",
-  "apk": "ThunderAlley-3.20.0.apk",
-  "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.20.0.apk",
-  "size": 539133964,
-  "sha256": "00ae0b23c625bbe0a14302172a90d5237c53984a35250e1473b673c3e6ce9319",
-  "hd_pack": "ThunderAlley-HD-3.15.0.pck",
-  "hd_size": 141088148,
-  "hd_sha256": "dbd20b5431a41bff7bf27bf9602b66e85b513c291e992c374cc8b1b055adc0f5",
-  "notes": "ThunderAlley 3.20.0: smoother frame rates\n- Simplified buildings and vehicles in the distance: past a distance set by your graphics preset, each building and vehicle is drawn as one simplified piece in its own colours instead of its many separate parts (walls, floors, windows, roof, trim, hull, wheels). Up close nothing changes, and a building that has been blown open always shows its real damage. Turrets, guns and rotors still move at any distance.\n- Buildings now hide what's behind them: the game skips drawing things that are completely blocked from view by a building's walls (you still see through doors, windows and holes).\n- Props are drawn together: sandbags, barriers, hesco walls, barrels, tyres, crates, rocks and trees that use the same model are drawn as one batch per patch of ground instead of one by one.\n- Building insides (floor tiles, stairs and railings) are no longer drawn from far away.\n- Idle smoke, dust and spark effects no longer cost anything while they're not playing.\n- In testing on Medium, the busiest views on Kessel went from about 1,400 to about 600-650 things drawn per frame (less than half); Intel Wars from about 780-1,010 to 600-830.\n- New \"Auto-adjust quality\" setting (on by default): if your phone can't keep up with the graphics preset, the game steps it down one level during the match and tells you. It changes at most twice a match. Turn it off in Settings > Graphics to keep your own choice.",
-  "code": 40708
+ "version": "3.23.0",
+ "apk": "ThunderAlley-3.23.0.apk",
+ "apk_url": "https://github.com/SwordOfFaithCo/ThunderAlley/releases/latest/download/ThunderAlley-3.23.0.apk",
+ "size": 561636894,
+ "sha256": "3f13443968d9eec617e5ed849941ccb352f787bf16f2769e31c494680021c091",
+ "hd_pack": "ThunderAlley-HD-3.15.0.pck",
+ "hd_size": 141088148,
+ "hd_sha256": "dbd20b5431a41bff7bf27bf9602b66e85b513c291e992c374cc8b1b055adc0f5",
+ "notes": "ThunderAlley 3.23.0: new killstreaks, revives, weather, map events and Ranked\n- Three new killstreaks:\n  - Scarab RC (4 kills): drive a remote-control buggy with a charge strapped on, and set it off next to the enemy. Real buggy model with turning, steering wheels and a blinking detonator.\n  - K9 Unit (7 kills): a German shepherd in a tactical vest follows you and runs down any enemy close by. Real animated dog: it idles, walks, runs and barks as it bites.\n  - Chopper Gunner (11 kills): take the gun of an attack helicopter circling the map and fire on the enemy below.\n- Final killcam: the match-winning kill is replayed in slow motion over the killer's shoulder before the results.\n- Downed and revives (team modes): a body shot that would kill puts you down instead. You lie wounded and can crawl, but not fight, and you bleed out after 14 seconds. A teammate holds the interact button next to you to revive you; holding it and walking drags you into cover first (head first, by the vest). Shooting a downed enemy finishes them. Headshots, explosions, knives and vehicles still kill outright. Bots revive and drag their teammates too. Not in Free-for-all, Gun Game, Infected, Bomb Defuse, Strikepoint or Tank Transport.\n- Weather: rain with lightning and thunder, fog, sandstorms and snow, depending on the map (or picked under Match Settings > Weather). The sky, light and fog change with it, and bots can't see as far. The falling rain, snow and blown sand can be turned off in Settings > Graphics > Weather effects.\n- Map events: in the middle of a match a building near the fighting is demolished (warning siren and red smoke on the roof, 10 seconds to clear out, then charges go off and the building comes down floor by floor), or an artillery barrage hits a marked area. In Rush and Breakthrough the demolition happens when the attackers reach the middle sector.\n- Rush and Breakthrough vehicles per sector: attackers get jeeps and a quad for the opening sectors, a gun truck in the middle, and a scout helicopter for the last two. Each sector's set rolls out at the forward deploy when that sector becomes active.\n- Ranked: a new competitive playlist (Domination, Hotzone, Kill Confirmed, Strikepoint, Team Deathmatch in turn, 5 v 5 against bots). Win to raise your Skill Rating and climb from Bronze to Elite; the bots get tougher as you rise. Five placement matches each season; seasons last 8 weeks, and you keep a badge for your best division.\n- Kill Confirmed dog tags are now real stamped steel tags on a ball chain.",
+ "code": 40711,
+ "ultra_pack": "ThunderAlley-Ultra-3.21.0.pck",
+ "ultra_size": 1721514832,
+ "ultra_sha256": "02cf5fa158a281e0ac6446225eea4c85ef2a8843f3ddc730ebfb609024d6777b",
+ "ultra_parts": [
+  "ThunderAlley-Ultra-3.21.0.pck.001",
+  "ThunderAlley-Ultra-3.21.0.pck.002",
+  "ThunderAlley-Ultra-3.21.0.pck.003",
+  "ThunderAlley-Ultra-3.21.0.pck.004",
+  "ThunderAlley-Ultra-3.21.0.pck.005"
+ ]
 }
